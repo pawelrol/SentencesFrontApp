@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SentencesFrontApp", "SentencesFrontApp\SentencesFrontApp.csproj", "{56DAB644-D367-47D6-AA10-B09F7BB3B582}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56DAB644-D367-47D6-AA10-B09F7BB3B582}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56DAB644-D367-47D6-AA10-B09F7BB3B582}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56DAB644-D367-47D6-AA10-B09F7BB3B582}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56DAB644-D367-47D6-AA10-B09F7BB3B582}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D183B939-1911-43E2-B7CC-4ED471177683}
+	EndGlobalSection
+EndGlobal

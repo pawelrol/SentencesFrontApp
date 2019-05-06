@@ -1,0 +1,28 @@
+﻿@model List<Sentence>
+
+<section class="container mt-30">
+    <div class="row text-center">
+        <div class="col-xs-12">
+            <h1>All Available Sentences:</h1>
+        </div>
+
+    </div>
+</section>
+
+<section class="container mt-30">
+    <div class="row text-center">
+        <div class="col-xs-offset-3 col-xs-6">
+            <ul class="list-group sentence-list">
+                @foreach (Sentence s in Model)
+                {
+                    <li class="sentence-item">
+                        <span class="hidden">@s.SentenceId </span><span>@s.SentencePhrase</span>
+                    </li>
+
+                }
+            </ul>
+        </div>
+
+    </div>
+</section>
+

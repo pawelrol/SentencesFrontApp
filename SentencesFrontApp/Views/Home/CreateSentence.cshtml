@@ -1,0 +1,37 @@
+﻿@model Phrase
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>CreateSentence</title>
+</head>
+<body>
+    <section class="container mt-30">
+        <div class="row text-center">
+            <div class="col-xs-12">
+                <h2>Create Your Sentence of the Day</h2>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="container mt-30">
+        <div class="row text-center">
+            <div class="col-xs-offset-3 col-xs-6">
+                <form asp-controller="Home" asp-action="CreateSentence">
+                    <input asp-for="textPhrase" class="form-control sentence-input" placeholder="Sentence" />
+                    <input type="submit" class="btn btn-danger mt-30 btn-send" />
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+</body>
+</html>

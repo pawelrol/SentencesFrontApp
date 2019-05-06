@@ -1,0 +1,24 @@
+﻿@model Sentence
+
+<section class="container mt-30">
+    <div class="row text-center">
+        <div class="col-xs-12">
+            <h1>Random Sentence of the Day:</h1>
+        </div>
+    </div>
+</section>
+
+<section class="container mt-30">
+    <div class="row text-center">
+        <div class="col-xs-offset-3 col-xs-6">
+            <ul class="list-group sentence-list">
+                <li class="sentence-item">
+                    <span class="hidden">@Model.SentenceId </span><span>@Model.SentencePhrase</span>
+                </li>
+            </ul>
+            <a class="btn btn-danger btn-next" asp-area="" asp-controller="Home" asp-action="RandomSentence">Next Sentence</a>
+
+        </div>
+
+    </div>
+</section>
